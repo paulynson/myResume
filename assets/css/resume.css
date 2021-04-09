@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Righteous&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -108,6 +110,7 @@ button{
 
 
 .name h1{
+    font-family: 'Josefin Sans', sans-serif;
     font-family: 'Righteous', cursive;
     font-size: 80px;
    
