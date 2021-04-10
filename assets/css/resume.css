@@ -19,12 +19,10 @@ html{
 .container{
     display: flex;
     justify-content: space-between;
-
 }
 
 h2{
     text-transform: uppercase;
-
 }
 
 
@@ -66,6 +64,7 @@ color: #000;
 .right img{
     width: 306px;
     height: 395px;
+    border-radius: 10px;
 }
 
 button{
@@ -255,10 +254,6 @@ h5{
     50%  { transform: translateY(-20px); }
     100% { transform: translateY(10px); }
 }
-
-
-
-
 
 
 /* Mobile Scren for 800px */
@@ -507,7 +502,5 @@ ul li::marker{
         padding: 10px 0;
     }
 
- 
 
-    
 }
