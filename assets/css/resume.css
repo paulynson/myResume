@@ -22,6 +22,13 @@ html{
 
 }
 
+h2{
+    text-transform: uppercase;
+
+}
+
+
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -43,7 +50,7 @@ color: #000;
 .right{
     display: flex;
     height: 100%;
-    background-color: #d3edff;
+    background-color: cadetblue;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -79,6 +86,7 @@ button{
     margin-right: 50% ;
     padding: 50px;
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 .left a{
@@ -110,7 +118,6 @@ button{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 80px;
     line-height: 1.2;
-   
 }
 
 .name h3{
@@ -216,6 +223,99 @@ h5{
     font-weight: normal;
 }
 
+.work-place li{
+    font-weight: normal;
+}
+
+
+/* Animation Keyframes */
+
+.fa-long-arrow-down{
+    animation-name: bounce-2;
+    font-size: 24px;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: cadetblue;
+    transition: ease;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(10px); }
+}
+
+
+
+
+
+
+/* Mobile Scren for 800px */
+
+
+@media (max-width: 1190px) and (min-width: 801px){
+
+    .left{
+        width: 50%;
+        margin-right: 50% ;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    /* Resume section */
+
+.resume{
+    padding: 0 10px;
+}
+
+.details{
+        margin-right: 50%;
+        padding-right: 10%;
+ }
+
+.resume-details{
+    margin: 0 20px;
+}
+
+.name{
+    margin-top: 35px;
+}
+
+
+.name h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.name h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+button{
+    position: absolute;
+    top: 8%;
+    right: 28%;
+   }
+
+   .l-nav p{
+       font-size: 15px;
+   }
+
+   .l-nav p{
+       font-size: 15px;
+   }
+
+}
+
+
 @media (max-width: 800px) {
     .container{
         display: flex;
@@ -254,8 +354,11 @@ h5{
             }
 
             button{
-                position: relative;
-                display: none;
+                position: absolute;
+                /* display: none; */
+                top: 2%;
+                right:35%;
+
             }
 
             /* Resume section */
@@ -373,4 +476,35 @@ ul li::marker{
     margin-bottom: 20px;
 }
 
+.l-nav p{
+    font-size: 15px;
+}
+
+}
+
+@media (max-width: 320px) {
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .l-nav p{
+        background-color: #fff;
+        width: 100vw;
+        justify-content: center;
+        /* align-items: center; */
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px 0;
+    }
+
+    button{
+        margin: 0 auto;
+        right: 22%;
+    }
+
+
+    
 }
