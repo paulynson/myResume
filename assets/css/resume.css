@@ -242,6 +242,7 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 10px 0;
     margin-top: 60px;
 }
@@ -326,6 +327,16 @@ button{
    .l-nav p{
        font-size: 15px;
    }
+
+   .footer{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 60px;
+}
 
 }
 
@@ -492,6 +503,15 @@ ul li::marker{
 .l-nav p{
     font-size: 15px;
 }
+.footer{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 60px;
+}
 
 }
 
@@ -511,6 +531,15 @@ ul li::marker{
         text-align: center;
         margin-bottom: 20px;
         padding: 10px 0;
+    }
+    .footer{
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 60px;
     }
 
 
