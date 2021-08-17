@@ -1,3 +1,3 @@
 # myResume
-https://abakadapaul-resume.netlify.app/
 
+https://abakadapaul-resume.netlify.app/
