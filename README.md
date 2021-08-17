@@ -1,5 +1,3 @@
-# myResume
-
 ## PAUL ABAKADA RESUME
 
 https://paulabakada-resume.netlify.app/
