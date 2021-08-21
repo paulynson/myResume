@@ -32,16 +32,9 @@ body {
   color: $light;
   position: relative;
 
-  .design {
+  #canvas {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: rgba($color: $blue, $alpha: 10);
     z-index: -1;
-    top: 180px;
-    left: 50%;
-    filter: blur(80px);
   }
 
   .footer {
@@ -60,6 +53,7 @@ body {
   // background-color: $light;
   text-align: center;
   padding-bottom: 40px;
+  z-index: 1111;
 
   .container {
     padding: 30px;
