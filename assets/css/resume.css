@@ -539,6 +539,10 @@ body .footer {
   transition: all 0.3s ease-in-out;
 }
 
+.darkmode-toggle {
+  z-index: 3;
+}
+
 @media (max-width: 768px) {
   .navbar {
     -webkit-box-orient: vertical;

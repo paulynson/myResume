@@ -63,7 +63,7 @@ function draw() {
     }
   }
   ctx.lineWidth = 0.05;
-  ctx.strokeStyle = '#262f8b';
+  ctx.strokeStyle = '#ccc';
   ctx.stroke();
 }
 
