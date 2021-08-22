@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: #f5e4f1;
   color: #f5e4f1;
   position: relative;
 }
@@ -27,7 +27,7 @@ body #canvas {
 }
 
 body .footer {
-  color: #f5e4f1;
+  color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,6 +40,10 @@ body .footer {
   text-align: center;
   padding: 10px 0;
   margin-top: 60px;
+}
+
+.cdetails {
+  color: #000000;
 }
 
 .header {
@@ -83,13 +87,12 @@ body .footer {
 
 .header .container .navbar .menu a {
   text-decoration: none;
-  color: #f5e4f1;
+  color: #000000;
   padding: 0 20px;
 }
 
 .header .container .navbar .menu a:hover {
   text-decoration: underline;
-  color: #f5e4f1;
 }
 
 .header .container .navbar .menu .btn {
@@ -134,6 +137,7 @@ body .footer {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.8rem;
   line-height: 1.2;
+  color: #000000;
   margin-bottom: 0.8rem;
 }
 
@@ -141,7 +145,7 @@ body .footer {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  background-color: #262f8b;
+  background-color: #000000;
   width: 250px;
   padding: 5px;
   line-height: 1.2;
@@ -161,11 +165,12 @@ body .footer {
 .header .wrapper .social a {
   padding: 0 10px;
   color: #888eca;
+  text-decoration: none;
   font-size: 0.8rem;
 }
 
 .header .wrapper .social a:hover {
-  color: #f5e4f1;
+  text-decoration: underline;
 }
 
 .header .scv {
@@ -243,19 +248,22 @@ body .footer {
 
 .main .about {
   text-align: center;
-  background-color: #f5e4f1;
+  background-color: #000000;
   padding: 20px;
 }
 
 .main .about h2 {
   margin-bottom: 30px;
   text-decoration: underline;
-  color: #000000;
+  color: #f5e4f1;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
 }
 
 .main .about p {
   line-height: 1.9;
-  color: #000000;
+  color: #f5e4f1;
   padding: 1rem;
 }
 
@@ -266,7 +274,7 @@ body .footer {
 .main .skills h2 {
   margin-bottom: 30px;
   text-decoration: underline;
-  color: #f5e4f1;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
@@ -318,7 +326,7 @@ body .footer {
 .main .work h2 {
   margin-bottom: 30px;
   text-decoration: underline;
-  color: #f5e4f1;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
@@ -338,9 +346,9 @@ body .footer {
 
 .main .work .work-details .wk {
   width: 400px;
-  background-color: #f5e4f1;
+  background-color: #262f8b;
   padding: 30px;
-  color: #000000;
+  color: #f5e4f1;
   position: relative;
 }
 
@@ -348,7 +356,7 @@ body .footer {
   position: absolute;
   content: '';
   left: 50%;
-  background-color: #262f8b;
+  background-color: #f5e4f1;
   bottom: 1%;
   height: 1%;
   -webkit-transform: translate(-50%, -50%);
@@ -357,7 +365,7 @@ body .footer {
 }
 
 .main .work .work-details .wk .wk-p {
-  color: #262f8b;
+  color: #888eca;
   font-weight: 500;
 }
 
@@ -365,10 +373,14 @@ body .footer {
   text-align: center;
 }
 
+.main .achievement p {
+  color: #000000;
+}
+
 .main .achievement h2 {
   margin-bottom: 30px;
   text-decoration: underline;
-  color: #f5e4f1;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
@@ -381,7 +393,7 @@ body .footer {
 .main .certificate h2 {
   margin-bottom: 30px;
   text-decoration: underline;
-  color: #f5e4f1;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
@@ -401,9 +413,9 @@ body .footer {
 
 .main .certificate .work-details p {
   width: 400px;
-  background-color: #f5e4f1;
+  background-color: #262f8b;
   padding: 30px;
-  color: #000000;
+  color: #f5e4f1;
   position: relative;
 }
 
@@ -411,7 +423,7 @@ body .footer {
   position: absolute;
   content: '';
   left: 50%;
-  background-color: #262f8b;
+  background-color: #f5e4f1;
   bottom: 1%;
   height: 1%;
   -webkit-transform: translate(-50%, -50%);
@@ -426,7 +438,7 @@ body .footer {
 .main .interest h2 {
   margin-bottom: 30px;
   text-decoration: underline;
-  color: #f5e4f1;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
@@ -446,9 +458,9 @@ body .footer {
 
 .main .interest .work-details p {
   width: 400px;
-  background-color: #f5e4f1;
+  background-color: #262f8b;
   padding: 30px;
-  color: #000000;
+  color: #f5e4f1;
   position: relative;
 }
 
@@ -456,7 +468,7 @@ body .footer {
   position: absolute;
   content: '';
   left: 50%;
-  background-color: #000000;
+  background-color: #f5e4f1;
   bottom: 1%;
   height: 1%;
   -webkit-transform: translate(-50%, -50%);
@@ -499,13 +511,14 @@ body .footer {
 }
 
 .pushtop {
-  right: 1%;
+  left: 2%;
   bottom: 3%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   position: fixed;
+  color: #f5e4f1;
   outline: #262f8b;
-  background-color: #f5e4f1;
+  background-color: #262f8b;
   padding: 0.7rem;
   border-radius: 0.3rem;
   border: 0.08rem solid #262f8b;
