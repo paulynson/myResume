@@ -49,7 +49,6 @@ body .footer {
 .header {
   text-align: center;
   padding-bottom: 40px;
-  z-index: 1111;
 }
 
 .header .container {
@@ -511,7 +510,7 @@ body .footer {
 }
 
 .pushtop {
-  left: 2%;
+  left: 3.5%;
   bottom: 3%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);

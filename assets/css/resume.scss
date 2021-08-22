@@ -57,7 +57,6 @@ body {
   // background-color: $light;
   text-align: center;
   padding-bottom: 40px;
-  z-index: 1111;
 
   .container {
     padding: 30px;
@@ -442,7 +441,7 @@ body {
 // Move Up
 
 .pushtop {
-  left: 2%;
+  left: 3.5%;
   bottom: 3%;
   transform: translate(-50%, -50%);
   position: fixed;
