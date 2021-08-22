@@ -106,8 +106,8 @@ body .footer {
 }
 
 .header .container .navbar .menu .btn:hover {
-  background-color: #f5e4f1;
-  color: #262f8b;
+  background-color: #000000;
+  color: #f5e4f1;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   text-decoration: none;
